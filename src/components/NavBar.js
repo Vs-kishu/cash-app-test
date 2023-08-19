@@ -11,7 +11,7 @@ const NavBar = () => {
       <img src="assests/logo.svg" alt="doller" onClick={toggleListVisibility} />
       <ul
         className={`${
-          isListVisible ? "show" : "max-xs:hidden"
+          isListVisible ? "show" : "max-sm:hidden"
         } max-xs:w-1/2 max-xs:rounded-lg max-xs:shadow-black max-xs:shadow-inner  max-xs: max-xs:items-center max-xs:p-3 max-xs:absolute max-xs:top-12  max-xs:bg-white max-xs:text-black flex max-xs:flex-col flex-row w-full justify-center gap-4 tracking-widest font-extrabold text-xs`}
       >
         <li>SIGN IN </li>

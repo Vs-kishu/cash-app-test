@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 
 const Footer = () => {
   return (
-    <div className="absolute -bottom-80  xs-bottom-64 max-md:p-3  md:bottom-4 lg:left-5  flex flex-col md:flex-row  w-full lg:w-11/12 items-center justify-between max-xs:gap-5">
+    <div className="absolute -bottom-80  xs:-bottom-64 max-md:p-3  md:bottom-4  flex flex-col md:flex-row  w-full lg:w-11/12 items-center justify-between max-xs:gap-5">
       <DownloadButtons />
       <div className="rounded-full p-4 px-5 bg-black ">
         <img src="assests/downarrow.svg" alt="arrow" />
